@@ -1,31 +1,34 @@
-# User stories – Objet Trouvé UPPA
+# 🇬🇧 UPPA Lost & Found - User Stories
 
-## Compte et sécurité
-1. En tant qu'étudiant, je peux créer un compte avec mon adresse email de l'université (@univ-pau.fr).
-2. Après l'inscription, je reçois un email de confirmation avec un lien. Mon compte est actif seulement après confirmation.
+🌐 **Languages / Langues:** [🇫🇷 Français](user-stories-fr.md)
 
-## Déclaration d'objets
-3. En tant qu'étudiant, je peux déclarer un objet perdu. Je donne un titre, une catégorie, une description, une date, un lieu et une photo.
-4. En tant qu'étudiant, je peux déclarer un objet trouvé. Je donne un titre, une catégorie et au moins deux photos (face et dos), sans trop de détails, pour vérifier plus tard la bonne personne. Je peux aussi ajouter une note privée, visible seulement par l'administrateur, avec un détail caché (marque, inscription, numéro de série...) qui aide à confirmer le vrai propriétaire.
+## Account and security
+1. As a student, I can create an account with my university email address (@univ-pau.fr).
+2. After registration, I receive a confirmation email with a link. My account is active only after confirmation.
 
-## Recherche et consultation
-5. En tant qu'étudiant, je peux rechercher des objets par catégorie ou par mot-clé.
-6. En tant qu'étudiant, je peux voir mes objets perdus et trouvés que j'ai déclarés, et leur statut (en attente, validé, à corriger).
+## Declaring items
+3. As a student, I can declare a lost item. I provide a title, a category, a description, a date, a location and a photo.
+4. As a student, I can declare a found item. I provide a title, a category and at least two photos (front and back), without too many details, to verify later the right owner. I can also add a private note, visible only to the administrator, with a hidden detail (brand, inscription, serial number...) that helps confirm the real owner.
 
-## Validation par l'administrateur
-7. En tant qu'administrateur, je peux valider un objet déclaré.
-8. En tant qu'administrateur, si les informations sont incomplètes ou incorrectes, je peux demander une correction à l'étudiant, avec une raison. L'objet n'est pas supprimé, il reste modifiable.
+## Search and browsing
+5. As a student, I can search for items by category or keyword.
+6. As a student, I can see the lost and found items I have declared, and their status (pending, validated, to correct).
 
-## Réclamation (claim)
-9. En tant qu'étudiant, quand je reconnais mon objet, je peux envoyer une demande de récupération.
-10. En tant qu'administrateur, si plusieurs étudiants réclament le même objet, je peux demander une description plus précise (caractéristiques, lieu de perte) pour identifier le vrai propriétaire.
-11. En tant qu'administrateur, je peux valider une demande de récupération. Dans ce cas, le système envoie l'email de l'étudiant qui a trouvé l'objet à l'étudiant qui le réclame. L'objet n'apparaît plus dans la liste publique.
-12. En tant qu'administrateur, je peux refuser une demande de récupération si la description donnée par l'étudiant ne correspond pas aux caractéristiques réelles de l'objet, ou si l'étudiant ne répond pas à la demande d'informations supplémentaires.
+## Validation by the administrator
+7. As an administrator, I can validate a declared item.
+8. As an administrator, if the information is incomplete or incorrect, I can ask the student for a correction, with a reason. The item is not deleted, it remains editable.
 
-## Clôture
-13. En tant qu'étudiant ayant trouvé l'objet, je confirme que l'objet a été rendu à la bonne personne. L'objet passe au statut "récupéré".
-14. En tant qu'étudiant, je peux supprimer mon objet avec une raison, seulement si aucune demande n'est validée, ou si l'objet est déjà marqué "récupéré".
+## Claim
+9. As a student, when I recognize my item, I can send a claim request.
+10. As an administrator, if several students claim the same item, I can ask for a more precise description (characteristics, place of loss) to identify the real owner.
+11. As an administrator, I can validate a claim request. In this case, the system sends the email of the student who found the item to the student claiming it. The item no longer appears in the public list.
+12. As an administrator, I can refuse a claim request if the description given by the student does not match the real characteristics of the item, or if the student does not respond to the request for additional information.
 
-## Règle métier automatique
-15. En tant que système, j'envoie un rappel à l'étudiant au bout de 10 jours si l'objet n'est pas réclamé. Au bout de 30 jours, l'objet passe au statut "archivé" et disparaît de la liste publique.
-(Fonctionnalité optionnelle, réalisée à 100% avec l'aide de l'IA, si possible.)
+## Closure
+13. As the student who found the item, I confirm that the item has been returned to the right person. The item's status changes to "recovered".
+14. As a student, I can delete my item with a reason, only if no request has been validated, or if the item is already marked "recovered".
+
+## Automatic business rule
+15. As the system, I send a reminder to the student after 10 days if the item has not been claimed. After 30 days, the item's status changes to "archived" and disappears from the public list.
+(Optional feature, achieved 100% with AI's help, if possible.)
+

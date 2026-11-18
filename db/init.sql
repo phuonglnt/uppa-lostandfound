@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS lostandfound;
 USE lostandfound;
 
--- 1. Bảng Users (Account & Security)
+-- 1. (Account & Security)
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL UNIQUE,
